@@ -1,0 +1,18 @@
+<Project>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.*" />
+    <PackageReference Include="xunit" Version="2.3.*" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.*" />
+    <PackageReference Include="coverlet.msbuild" Version="1.0.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+  	<DotNetCliToolReference Include="dotnet-xunit" Version="2.3.*" />
+  </ItemGroup>
+
+  <Target Name="Coverage">
+    <Exec Command="dotnet test /p:CollectCoverage=true /p:CoverletOutputFormat=lcov /p:CoverletOutput=./lcov.info" />
+  </Target>
+
+</Project>

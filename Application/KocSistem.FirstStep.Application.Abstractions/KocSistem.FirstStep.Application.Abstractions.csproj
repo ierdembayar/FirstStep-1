@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../Common.Build.props" />
+  
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ProjectGuid>{d0d1b478-5fb8-43cd-a95d-a5fda1346a86}</ProjectGuid>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="KocSistem.OneFrame.DesignObjects.Abstractions" Version="0.9.66" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.3" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\KocSistem.FirstStep.Domain\KocSistem.FirstStep.Domain.csproj" />
+  </ItemGroup>
+  
+</Project>

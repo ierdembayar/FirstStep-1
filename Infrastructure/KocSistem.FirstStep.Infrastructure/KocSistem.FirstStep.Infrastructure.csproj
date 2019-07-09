@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../Common.Build.props" />
+  
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ProjectGuid>{1fab7b4e-6c86-486e-bcb3-2a309fe8ad90}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\KocSistem.FirstStep.Application.Abstractions\KocSistem.FirstStep.Application.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Application\KocSistem.FirstStep.Application\KocSistem.FirstStep.Application.csproj" />
+    <ProjectReference Include="..\KocSistem.FirstStep.Persistence\KocSistem.FirstStep.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../Common.Build.props" />
+  
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ProjectGuid>{317a6d0b-76bd-4d3a-92c2-35cff7ca7ee0}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KocSistem.OneFrame.DesignObjects" Version="0.9.66" />
+    <PackageReference Include="KocSistem.OneFrame.ErrorHandling.Web" Version="0.9.66" />
+    <PackageReference Include="KocSistem.OneFrame.Helpers.Validation" Version="0.9.66" />
+    <PackageReference Include="KocSistem.OneFrame.Mapper" Version="0.9.66" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.3" />
+  </ItemGroup> 
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\KocSistem.FirstStep.Domain\KocSistem.FirstStep.Domain.csproj" />
+    <ProjectReference Include="..\KocSistem.FirstStep.Application.Abstractions\KocSistem.FirstStep.Application.Abstractions.csproj" />
+  </ItemGroup> 
+
+</Project>

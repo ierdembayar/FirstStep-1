@@ -1,0 +1,114 @@
+[
+  {
+    "Key": "InvalidModel",
+    "Values": {
+      "en-US": "Invalid Model",
+      "tr-TR": "Geçersiz model"
+    }
+  },
+  {
+    "Key": "UnableToCreateUser",
+    "Values": {
+      "en-US": "Unable to create user",
+      "tr-TR": "Kullanıcı Oluşturulamadı"
+    }
+  },
+  {
+    "Key": "InvalidLoginCredentials",
+    "Values": {
+      "en-US": "Invalid login credentials.",
+      "tr-TR": "Geçersiz giriş bilgileri."
+    }
+  },
+  {
+    "Key": "EmailResetLink",
+    "Values": {
+      "en-US": "email reset link",
+      "tr-TR": "e-posta sıfırlama linki"
+    }
+  },
+  {
+    "Key": "NoAccount",
+    "Values": {
+      "en-US": "no account",
+      "tr-TR": "hesap yok"
+    }
+  },
+  {
+    "Key": "AccountDoesNotExist",
+    "Values": {
+      "en-US": "{0} : Account does not exist in the system.",
+      "tr-TR": "{0} : Hesap sistemde mevcut değil"
+    }
+  },
+  {
+    "Key": "RoleNotFound",
+    "Values": {
+      "en-US": "Role {0} does not exist.",
+      "tr-TR": "Rol {0} mevcut değil."
+    }
+  },
+  {
+    "Key": "UserNotFound",
+    "Values": {
+      "en-US": "User is not found",
+      "tr-TR": "Kullanıcı bulunamadı"
+    }
+  },
+  {
+    "Key": "UnableToResetPassword",
+    "Values": {
+      "en-US": "Unable to reset password",
+      "tr-TR": "Şifre sıfırlanamadı"
+    }
+  },
+  {
+    "Key": "PasswordResetSuccessful",
+    "Values": {
+      "en-US": "Password has been reset successfully.",
+      "tr-TR": "Şifre başarıyla sıfırlandı."
+    }
+  },
+  {
+    "Key": "ClaimNotFound",
+    "Values": {
+      "en-US": "Claim is not found.",
+      "tr-TR": "Izin bulunamadı."
+    }
+  },
+  {
+    "Key": "UnableToCreateResetLink",
+    "Values": {
+      "en-US": "Unable to create reset password link.",
+      "tr-TR": "Şifre sıfırlama linki oluşturulamadı."
+    }
+  },
+  {
+    "Key": "DuplicateUserName",
+    "Values": {
+      "en-US": "Name is already taken.",
+      "tr-TR": "Kullanıcı adı sistemde zaten kayıtlı."
+    }
+  },
+  {
+    "Key": "InvalidToken",
+    "Values": {
+      "en-US": "Invalid Token",
+      "tr-TR": "Geçersiz Token"
+    }
+  },
+  {
+    "Key": "PasswordRequiresUniqueChars",
+    "Values": {
+      "en-US": "Password requires unique characters.",
+      "tr-TR": "Şifre benzersiz karakterler gerektirir."
+    }
+  },
+  {
+    "Key": "ParameterMustBeRole",
+    "Values": {
+      "en-US": "Parameter must be Role",
+      "tr-TR": "Parametre rol olmalıdır"
+    }
+  }
+]

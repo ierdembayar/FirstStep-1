@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  app:
+    container_name: app
+    build:
+      context: ../
+      dockerfile: Sample.MvcWebApi/Dockerfile
+
+  redis:
+    image: redis
